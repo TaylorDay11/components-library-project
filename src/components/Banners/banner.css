@@ -1,0 +1,83 @@
+.banner {
+    display: flex;
+    width: 800px;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.title {
+    margin-top: 1.5px;
+    font-weight: 500;
+}
+
+.success-img {
+    color: #34D399;
+}
+
+.success {
+    color: #047857;
+    background-color: #ECFDF5;
+}
+
+.success .title{
+    color: #065F46;
+}
+
+.attention-img {
+    color: #FBBF24;
+}
+
+.attention {
+    color: #B45309;
+    background-color: #FFFBEB;
+}
+
+.attention .title{
+    color: #92400E;
+}
+
+.problem-img {
+    color: #F87171;
+}
+
+.problem {
+    color: #B45309;
+    background-color: #FEF2F2;
+}
+
+.problem .title{
+    color: #92400E;
+}
+
+.update-img {
+    color: #60A5FA;
+}
+
+.update {
+    color: #1C51B9;
+    background-color: #EFF6FF;
+}
+
+.update .title{
+    color: #1E40AF;
+}

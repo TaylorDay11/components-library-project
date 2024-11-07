@@ -1,0 +1,151 @@
+.tooltip-container {
+    display: flex;
+    width: 384px;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 8px;
+    margin-bottom: -3px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.10), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.tooltip-polygon {
+    margin-top: -11px;
+    margin-left: 55px;
+}
+
+.tooltip-x {
+    width: 20px;
+    height: 20px;
+}
+
+.tooltip-content {
+    display: flex;
+}
+
+.tooltip-image {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.tooltip-title {
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+}
+
+.tooltip-description {
+    font-family: Inter;
+    font-size: 14px;    
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.black-bold .tooltip-container{
+    background: #262626;    
+    color: #C7C7C7;
+}
+
+.black-bold .tooltip-polygon {
+    color: #262626;  
+}
+
+.black-bold .tooltip-title {
+    color: #fff;
+}
+
+.black-light .tooltip-container{
+    background: #FFF;  
+    color: #6B7280;
+}
+
+.black-light .tooltip-polygon {
+    color: #fff;  
+}
+
+.black-light .tooltip-title {
+    color: #111827;
+}
+
+.blue-bold .tooltip-container{
+    background: #1E40AF;  
+    color: #E8EDFF;
+}
+
+.blue-bold .tooltip-polygon {
+    color: #1E40AF;  
+}
+
+.blue-bold .tooltip-title {
+    color: #fff;
+}
+
+.blue-light .tooltip-container{
+    background: #E0E7FF;
+    color: #1C51B9;
+}
+
+.blue-light .tooltip-polygon {
+    color: #E0E7FF;  
+}
+
+.blue-light .tooltip-title {
+    color: #1E40AF;
+}
+
+.purple-bold .tooltip-container{
+    background: #A9229B;
+    color: #FFE9FD;
+}
+
+.purple-bold .tooltip-polygon {
+    color: #A9229B;  
+}
+
+.purple-bold .tooltip-title {
+    color: #fff;
+}
+
+.purple-light .tooltip-container{
+    background: #FFF3FC;
+    color: #C7369E;
+}
+
+.purple-light .tooltip-polygon {
+    color: #FFF3FC;  
+}
+
+.purple-light .tooltip-title {
+    color: #A9229B;
+}
+
+.green-bold .tooltip-container{
+    background: #47AA5D;
+    color: #E3FFE9;
+}
+
+.green-bold .tooltip-polygon {
+    color: #47AA5D;  
+}
+
+.green-bold .tooltip-title {
+    color: #fff;
+}
+
+.green-light .tooltip-container{
+    background: #E7FFF3;
+    color: #3C8C4E;
+}
+
+.green-light .tooltip-polygon {
+    color: #E7FFF3;  
+}
+
+.green-light .tooltip-title {
+    color: #137A2A;
+}
